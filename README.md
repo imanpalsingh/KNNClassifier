@@ -6,7 +6,7 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 <h3><u>Implementation</u></h3>
 
 1. The Feature Matrix is a vector of vectors of float (currently) and the input format is given below
-
+<br>
 
 | Feature 0 | Feature 1 | Feature 2 |  .. .. .. | Feature N |
 | --------- | --------- | --------- | --------- | --------- |
@@ -26,8 +26,8 @@ std::vector<vector<float> > X = { {Observation 00,Observation 01,Observation 02,
                                   {Observation M0,Observation M1,Observation M2, .. .. .., Observation Mn}};
                                   
 ```
-
-For example
+<br>
+For example a Feature matrix with four features may look like
 ```c++
 std::vector<vector<float> > X = { {2,3,4,5}, 
                                   {1,2,3,4}, 
@@ -36,4 +36,15 @@ std::vector<vector<float> > X = { {2,3,4,5},
                                   {5,1,3,4}};
 
 ```
+<br><br>
+2. The vector of prediction is a vector of float (currently) and the input format is given below
+<br>
+| Target 1 |
+| Target 2 |
+| Target 3 |
+| Target 4 |
+|    :     |
+|    :     |
+|    :     |
+| Target N |
 
