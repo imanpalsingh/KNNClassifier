@@ -1,6 +1,6 @@
 /*
  *
- * Description : - Machine Learning algorithm K Nearest Neighbor Classifier c++ implementation
+ * Description : - Machine Learning algorithm K Nearest Neighbor Classifier C++ implementation
  * Author :  - Imanpal Singh <imanpalsingh@gmail.com>
  * Date created : - 01-10-2019
  * Last modified : - 11-10-2019
