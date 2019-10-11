@@ -35,7 +35,7 @@ For example a Feature matrix with four features may look like
 
 
 ```c++
-std::vector<vector<float> > X = { {2,3,4,5}, 
+std::vector<std::vector<float> > X = { {2,3,4,5}, 
                                   {1,2,3,4}, 
                                   {4,2,3,1}, 
                                   {4,2,1,4}, 
@@ -72,7 +72,7 @@ For example a vector of prediction may look like
 
 
 ```c++
-std::vector<vector<float> > X = {2,3,4,5}; 
+std::vector<float> > X = {2,3,4,5}; 
 
 
 ```
