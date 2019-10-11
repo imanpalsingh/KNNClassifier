@@ -119,7 +119,7 @@ Wokring : - After Classify is called the predicted class is stored in vector val
 
 <h3><u>Example</u></h3>
 
-```
+```c++
 #inlcude "knn.hpp"
 
 int main()
