@@ -44,6 +44,8 @@ std::vector<vector<float> > X = { {2,3,4,5},
 <br><br>
 2. The vector of prediction is a vector of float (currently) and the input format is given below
 <br>
+
+
 | Feature 0 | 
 | --------- |
 | Observation 00 |
