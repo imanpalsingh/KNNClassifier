@@ -109,7 +109,7 @@ Wokring : - After Classify is called the predicted class is stored in vector val
 <h4>Useful public variables</h4>
  1. <b>neighbors : </b> Stores the number of neighbores to consider, can be changed at any moment of compiling.<br>
  2. <b>distance_metric :</b> Stores the distnce metric being used , can be changed at any moment of compiling.<br>
- 3. <b> mode : </b> Mode defines the reaction to an error or warning. Currently supported modes are none and informative.Informative can display extra helful information during a runtime error.Can be changed at any moment of compiling.<br>
+ 3. <b> mode : </b> Mode defines the reaction to an error or warning. Currently supported modes are none and informative.Informative can display extra helpful information during a runtime error.Can be changed at any moment of compiling.<br>
  4. <b>distances : </b> Stores unsorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.<br>
  5. <b>distances_sorted : </b> Stores sorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.<br>
  6. <b> n_distances : </b> Stores sorted ordered n distances , where n is the number of neighbors. Dynamically chages, should not be changed manually.<br>
