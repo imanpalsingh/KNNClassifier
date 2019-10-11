@@ -46,10 +46,10 @@ std::vector<vector<float> > X = { {2,3,4,5},
 <br>
 
 
-| Feature 0 | 
+| TARGET | 
 | --------- |
-| Observation 00 |
-| Observation 10 |
-| Observation 20 | 
+| Target 1 |
+| Target 2 |
+| Target 3 | 
 | : |
-| Observation M0 |
+| Target M |
