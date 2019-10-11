@@ -44,14 +44,10 @@ std::vector<vector<float> > X = { {2,3,4,5},
 <br><br>
 2. The vector of prediction is a vector of float (currently) and the input format is given below
 <br>
-| Target |  |
-| ------- | |
-| Target 1 |  | 
-| Target 2 |  |
-| Target 3 |  |
-| Target 4 |  |
-|    :     |  |
-|    :     |  |
-|    :     |  |
-| Target N |  |
-
+| Feature 0 | 
+| --------- |
+| Observation 00 |
+| Observation 10 |
+| Observation 20 | 
+| : |
+| Observation M0 |
