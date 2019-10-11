@@ -107,14 +107,14 @@ Output : None<br>
 Wokring : - After Classify is called the predicted class is stored in vector val_pred. This function performs a pretty print of the values.
 
 <h4>Useful public variables</h4>
- -<b>neighbors : </b> Stores the number of neighbores to consider, can be changed at any moment of compiling.
- -<b>distance_metric :</b> Stores the distnce metric being used , can be changed at any moment of compiling.
- -<b> mode : </b> Mode defines the reaction to an error or warning. Currently supported modes are none and informative.Informative can display extra helful information during a runtime error.Can be changed at any moment of compiling
- -<b>distances : </b> Stores unsorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.
- -<b>distances_sorted : </b> Stores sorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.
- -<b> n_distances : </b> Stores sorted ordered n distances , where n is the number of neighbors. Dynamically chages, should not be changed manually.
- -<b> pred_values : </b> Stores the predicted values in order. Should be accessed only after applying and classifying. (apply(), classify()).
- -<b> dis_to_y : </b> Stores mapping of distance to its target value. Should only be used for debugging purposes.
+ 1. <b>neighbors : </b> Stores the number of neighbores to consider, can be changed at any moment of compiling.
+ 2. <b>distance_metric :</b> Stores the distnce metric being used , can be changed at any moment of compiling.
+ 3. <b> mode : </b> Mode defines the reaction to an error or warning. Currently supported modes are none and informative.Informative can display extra helful information during a runtime error.Can be changed at any moment of compiling
+ 4. <b>distances : </b> Stores unsorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.
+ 5. <b>distances_sorted : </b> Stores sorted, ordered distances from the test set to original points.Dynamically changes, should not be changed manually.
+ 6. <b> n_distances : </b> Stores sorted ordered n distances , where n is the number of neighbors. Dynamically chages, should not be changed manually.
+ 7. <b> pred_values : </b> Stores the predicted values in order. Should be accessed only after applying and classifying. (apply(), classify()).
+ 8. <b> dis_to_y : </b> Stores mapping of distance to its target value. Should only be used for debugging purposes.
 
 
 
