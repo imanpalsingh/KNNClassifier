@@ -117,5 +117,37 @@ Wokring : - After Classify is called the predicted class is stored in vector val
  8. <b> dis_to_y : </b> Stores mapping of distance to its target value. Should only be used for debugging purposes.<br>
 
 
+<h3><u>Example</u></h3>
+
+```
+#inlcude "knn.hpp"
+
+int main()
+{
+  //Creating objects of Knn class
+  knn model   //Default values will be assigned i.e neighbors = 1, distance_metric="euclidean", mode="none"
+  knn model2(3,"euclidean","informative") //neighbors = 3,  distance_metric="euclidean", mode="informative"
+  
+  std::vector<std::vector<float> >X = { {2,3,4,5}, {1,2,3,4}, {4,2,3,1}, {4,2,1,4}, {5,1,3,4}}; // Feature Matrix
+  std::vector<float>y = {0,1,2,1,0}; //Vector of Prediction
+  
+  std::vector<std::vector<float> > X_test = { {2,3,4,5},{1,3,4,5},{4,1,0,2}}; //Test Feature Matrix
+  
+  //Applying models
+  model.apply(X,y);
+  model2.apply(X,y);
+  
+  //Classifying
+  model.classify(X_test);
+  model2.classify(X_test);
+  
+  //Showing result
+  model.print_class();
+  model2.print_class();
+  
+  //The val_pred vector can also be accessed with model.val_pred
+  
+  ```
+  
 
 
