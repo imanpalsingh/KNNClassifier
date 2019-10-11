@@ -3,7 +3,7 @@
 
 The code is a from scratch implementation of KNN in C++ programing language.The Algorithm is distributed in a object oriented system.
 
-<h3><u>Input Strucutre</u></h3>
+<h3><u>Input Structre</u></h3>
 
 1. The Feature Matrix is a vector of vectors of float (currently) and the input format is given below
 
