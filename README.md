@@ -89,10 +89,19 @@ This algorithm takes the following assumptions about the data :-
 <h3><u>Implementation</u></h3>
 
 <h5> Function : apply() </h5>
-Input : Feature Matrix and Vector of prediction
-Output : None
-Description :- The function checks for null values and if the two matrices are comparable i.e The number of observations are same.It then updates its private memebers X and y which now store the Feature Matrix and Vector of prediction respectively
+Input : Feature Matrix and Vector of prediction<br>
+Output : None<br>
+Working :- The function checks for null values and if the two matrices are comparable i.e The number of observations are same.It then updates its private memebers X and y which now store the Feature Matrix and Vector of prediction respectively<br>
 
+<h5> Function : Classify()</h5>
+Input : Test Feature Matrix<br>
+Output : None <br>
+Working : - Calculates the distance in required distance metric, sorts in the increasing order of their magnitude and then keep the number of neighbors defined during object creation. Performs a decision  of classification on the basis of occurence of each class.The class with highest count is selected. The classified values are stored in vector of float val_pred.
+
+<h5> Function : print_class()</h5>
+Input : None<br>
+Output : None<br>
+Wokring : - After Classify is called the predicted class is stored in vector val_pred. This function performs a pretty print of the values.
 
 
 
