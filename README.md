@@ -58,3 +58,24 @@ std::vector<vector<float> > X = { {2,3,4,5},
 | Target 3 | 
 | : |
 | Target M |
+
+<br><br>
+
+The equivalent C++ representation would be done by initialising vector of vectors like :-
+
+```c++
+std::vector<float> y = {Target 1, Target 2, Target 3, .. .. .. , Target N};
+```
+<br>
+
+For example a vector of prediction may look like
+
+
+```c++
+std::vector<vector<float> > X = {2,3,4,5}; 
+
+
+```
+
+
+
