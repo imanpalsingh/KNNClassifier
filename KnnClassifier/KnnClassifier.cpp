@@ -96,9 +96,17 @@ void Knn::classify(std::vector<std::vector<float> >X_)
 
 	if(!check_train_test_equal(X_))
 		return;
-
-
-	euc_dis(X_);
+	
+	if(distance_metric=="euclidean")
+		euc_dis(X_);
+	
+	else
+	{
+		std::cout<<"<In Knn::classify()> ERROR: Incorrect distance metric.\n";
+		if(mode=="informative")
+			std::cout<<"(informative) If unaware of any distance metric, use 'euclidean' or use defaults.\n";
+		return;
+	}
 	determine_class();
 	
 
