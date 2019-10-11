@@ -32,7 +32,7 @@ Knn::Knn()
 
 {
 	neighbors = 1;
-	distance_metric = "eucledian";
+	distance_metric = "euclidean";
 	mode="none";
 
 }
@@ -108,9 +108,9 @@ void Knn::classify(std::vector<std::vector<float> >X_)
 /*
  *
  * Function Name: - euc_dis
- * Input : points - > set of points(vector of vectors) from where to calculate eucledian distance to.
+ * Input : points - > set of points(vector of vectors) from where to calculate euclidean distance to.
  * Return : None
- * Logic :  Calculating eucledian distance and assigning the distances vector with the respective distancs.
+ * Logic :  Calculating euclidean distance and assigning the distances vector with the respective distancs.
  *
 */
 
