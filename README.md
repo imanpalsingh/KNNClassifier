@@ -1,9 +1,9 @@
 # KNNClassifier
-<b>K Nearest Neighber Classifier </b>
+<h2>K Nearest Neighber Classifier <h2>
 
 The code is a from scratch implementation of KNN in C++ programing language.The Algorithm is distributed in a object oriented system.
 
-<h4><u>Implementation</u></h6>
+<h3><u>Implementation</u></h3>
 
 1. The Feature Matrix is a vector of vectors of float (currently) and the input format is given below
 
