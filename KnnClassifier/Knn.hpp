@@ -8,8 +8,8 @@
 */
 
 
-#ifndef KNN_H   
-#define KNN_H
+#ifndef KNN_HPP   
+#define KNN_HPP
 
 
 /*
