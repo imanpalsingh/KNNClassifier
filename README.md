@@ -79,7 +79,7 @@ std::vector<float> > X = {2,3,4,5};
 
 <h3><u>Assumptions</u></h3>
 
-This algorithm takes the following assumptions about the data 
+This algorithm takes the following assumptions about the data :-
 
 1) The data consists of discrete values , not categorical.
 2) The values are of datatype float (Currently)
@@ -89,6 +89,9 @@ This algorithm takes the following assumptions about the data
 <h3><u>Implementation</u></h3>
 
 <h5> Function : apply() </h5>
+Input : Feature Matrix and Vector of prediction
+Output : None
+Description :- The function checks for null values and if the two matrices are comparable i.e The number of observations are same.It then updates its private memebers X and y which now store the Feature Matrix and Vector of prediction respectively
 
 
 
