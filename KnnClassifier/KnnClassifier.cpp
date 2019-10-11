@@ -23,9 +23,9 @@
 /*
  *
  * Function Name: - Knn
- * Input : 			None
- * Return : 		None
- * Logic :  		Constructor to load default values to the required variables
+ * Input : None
+ * Return : None
+ * Logic :  Constructor to load default values to the required variables
  *
 */
 Knn::Knn()
@@ -40,9 +40,9 @@ Knn::Knn()
 /*
  *
  * Function Name: - Knn
- * Input : 			None
- * Return : 		None
- * Logic :  		Constructor overloaded to load user defined vales to the required variables
+ * Input : None
+ * Return : None
+ * Logic :  Constructor overloaded to load user defined vales to the required variables
  *
 */
 Knn::Knn(int n_neighbors,std::string metric,std::string mode_)
@@ -56,9 +56,9 @@ Knn::Knn(int n_neighbors,std::string metric,std::string mode_)
 /*
  *
  * Function Name: - apply
- * Input : 			X_ - > Feature matrix from user, y_-> Vector of prediction from user
- * Return : 		None
- * Logic :  		Applying error detection methods such as if null values are present or 
+ * Input : X_ - > Feature matrix from user, y_-> Vector of prediction from user
+ * Return : None
+ * Logic :  Applying error detection methods such as if null values are present or 
  *					if dimensions are equal and storing the Feature matrix and vector of predicton
  *
 */
@@ -79,9 +79,9 @@ void Knn::apply(std::vector<std::vector<float> > X_, std::vector<float> y_)
 /*
  *
  * Function Name: - classify
- * Input : 			X_ - > Test Feature matrix from user on whom to apply classification of,
- * Return : 		None
- * Logic :  		Applying error detection methods such as if Knn is applied first, and if train and test sets are of equal dimensions
+ * Input : X_ - > Test Feature matrix from user on whom to apply classification of,
+ * Return : None
+ * Logic :  Applying error detection methods such as if Knn is applied first, and if train and test sets are of equal dimensions
  *					Calculating the required distance metrics and determing the class they belongs to.
  *
 */
@@ -108,9 +108,9 @@ void Knn::classify(std::vector<std::vector<float> >X_)
 /*
  *
  * Function Name: - euc_dis
- * Input : 			points - > set of points(vector of vectors) from where to calculate eucledian distance to.
- * Return : 		None
- * Logic :  		Calculating eucledian distance and assigning the distances vector with the respective distancs.
+ * Input : points - > set of points(vector of vectors) from where to calculate eucledian distance to.
+ * Return : None
+ * Logic :  Calculating eucledian distance and assigning the distances vector with the respective distancs.
  *
 */
 
@@ -150,9 +150,9 @@ void Knn::euc_dis(std::vector<std::vector<float> > points)
 /*
  *
  * Function Name: - determine_class
- * Input : 			None
- * Return : 		None
- * Logic :  		Based on the distances calculated, determining the class taking the neighbors into consideration.
+ * Input : None
+ * Return : None
+ * Logic :  Based on the distances calculated, determining the class taking the neighbors into consideration.
  *
 */
 
@@ -247,9 +247,9 @@ void Knn::determine_class()
 /*
  *
  * Function Name: - sort_distances
- * Input : 			None
- * Return : 		None
- * Logic :  		The distances obtained are sorted.
+ * Input : None
+ * Return : None
+ * Logic :  The distances obtained are sorted.
  *
 */
  	
@@ -264,9 +264,9 @@ void Knn::determine_class()
 /*
  *
  * Function Name: - print_class
- * Input : 			None
- * Return : 		None
- * Logic :  		Error checking;if Knn is applied and if classify is called successfullt. Prints the last predicted value(s).
+ * Input : None
+ * Return : None
+ * Logic :  Error checking;if Knn is applied and if classify is called successfullt. Prints the last predicted value(s).
  *
 */
 void Knn::print_class()
@@ -297,9 +297,9 @@ void Knn::print_class()
 /*
  *
  * Function Name: - check_train_test_equal
- * Input : 			X_ -> Vector of vectors to compare with original Feature matrix(vector of vectors)
- * Return : 		True - > if comparable, False -> If not.
- * Logic :  		The number of features in each entry should be same as the Feature matrix. and number of entries may differ.
+ * Input : X_ -> Vector of vectors to compare with original Feature matrix(vector of vectors)
+ * Return : True - > if comparable, False -> If not.
+ * Logic :  The number of features in each entry should be same as the Feature matrix. and number of entries may differ.
  *
 */
 
@@ -336,9 +336,9 @@ bool Knn::check_train_test_equal(std::vector<std::vector<float> >X_)
 /*
  *
  * Function Name: - check_null
- * Input : 			X_ -> Vector of vectors to check if missing values are present
- * Return : 		True - > if missing values not present, False -> If present.
- * Logic :  		The number of features in each entry should be same.
+ * Input : X_ -> Vector of vectors to check if missing values are present
+ * Return : True - > if missing values not present, False -> If present.
+ * Logic :  The number of features in each entry should be same.
  *
 */
 
@@ -383,9 +383,9 @@ bool Knn::check_null(std::vector<std::vector<float> >X_)
 /*
  *
  * Function Name: - check_X_y_equal
- * Input : 			X_ -> Feature Matrix, y_ -> Vector of prediction.
- * Return : 		True - > if dimensions are equal, False -> If not.
- * Logic :  		The number of entries/observations should be same;
+ * Input : X_ -> Feature Matrix, y_ -> Vector of prediction.
+ * Return : True - > if dimensions are equal, False -> If not.
+ * Logic :  The number of entries/observations should be same;
  *
 */
 
@@ -409,9 +409,9 @@ bool Knn::check_X_y_equal(std::vector<std::vector<float> > X_, std::vector<float
 /*
  *
  * Function Name: - check_n_less_dis
- * Input : 			None
- * Return : 		True - > if neighbors are more than observations
- * Logic :  		The number of entries/observations should be more than neighbors;
+ * Input : None
+ * Return : True - > if neighbors are more than observations
+ * Logic :  The number of entries/observations should be more than neighbors;
  *
 */
 
@@ -426,9 +426,9 @@ bool Knn::check_n_less_dis()
 /*
  *
  * Function Name: - :stat
- * Input : 			None
- * Return : 		None 
- * Logic :  		Showing the status of the algorihtm, applied or not.
+ * Input : None
+ * Return : None 
+ * Logic :  Showing the status of the algorihtm, applied or not.
  *
 */
 void Knn::stat()
@@ -449,14 +449,7 @@ void Knn::stat()
 
 int main()
 {
-	std::vector<std::vector<float> > X = { {2,3,4,5}, {1,2,3,4}, {4,2,3,1}, {4,2,1,4}, {5,1,3,4}};
-	std::vector<std::vector<float> > X_test = { {2,3,4,5},{1,3,4,5},{4,1,0,2}};
-	std::vector<float>y = {0,1,2,1,0};
-
-	Knn model(3,"eucledian","none");
-	model.apply(X,y);
-	model.classify(X_test);
-	model.print_class();
+	//Refer Documentation for examples
 	
 
 
