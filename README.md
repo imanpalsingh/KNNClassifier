@@ -9,6 +9,7 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 
 | Feature 1 | Feature 2 | Feature 3 |  .. .. .. | Feature N |
 | --------- | --------- | --------- | --------- | --------- |
+| Observation 1 | Observation 2 | Observation 3|  .. .. .. | Observation N |
 
 
 
