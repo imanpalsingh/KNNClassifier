@@ -125,8 +125,8 @@ Wokring : - After Classify is called the predicted class is stored in vector val
 int main()
 {
   //Creating objects of Knn class
-  knn model   //Default values will be assigned i.e neighbors = 1, distance_metric="euclidean", mode="none"
-  knn model2(3,"euclidean","informative") //neighbors = 3,  distance_metric="euclidean", mode="informative"
+  Knn model;   //Default values will be assigned i.e neighbors = 1, distance_metric="euclidean", mode="none"
+  Knn model2(3,"euclidean","informative"); //neighbors = 3,  distance_metric="euclidean", mode="informative"
   
   std::vector<std::vector<float> >X = { {2,3,4,5}, {1,2,3,4}, {4,2,3,1}, {4,2,1,4}, {5,1,3,4}}; // Feature Matrix
   std::vector<float>y = {0,1,2,1,0}; //Vector of Prediction
@@ -149,5 +149,5 @@ int main()
   
   ```
   
-
+<b><i>This project is still under development<b><i>
 
