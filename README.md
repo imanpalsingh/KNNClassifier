@@ -1,5 +1,5 @@
 # KNNClassifier
-<h2>K Nearest Neighbor Classifier </h2>
+<h2>K Nearest Neighbors Classifier </h2>
 
 The code is a from scratch implementation of KNN in C++ programing language.The Algorithm is distributed in a object oriented system.
 
