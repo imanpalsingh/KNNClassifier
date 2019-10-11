@@ -18,7 +18,7 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 
 The equivalent C++ representation would be done by initialising vector of vectors like :-
 
-```
+```c++
 std::vector<vector<float> > X;
 
 ```
