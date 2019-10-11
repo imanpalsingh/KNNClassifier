@@ -3,7 +3,7 @@
 
 The code is a from scratch implementation of KNN in C++ programing language.The Algorithm is distributed in a object oriented system.
 
-<h3><u>Implementation</u></h3>
+<h3><u>Input Strucutre</u></h3>
 
 1. The Feature Matrix is a vector of vectors of float (currently) and the input format is given below
 
@@ -61,7 +61,7 @@ std::vector<vector<float> > X = { {2,3,4,5},
 
 <br><br>
 
-The equivalent C++ representation would be done by initialising vector of vectors like :-
+The equivalent C++ representation would be done by initialising vector of float like :-
 
 ```c++
 std::vector<float> y = {Target 1, Target 2, Target 3, .. .. .. , Target N};
@@ -76,6 +76,15 @@ std::vector<vector<float> > X = {2,3,4,5};
 
 
 ```
+
+<h3><u>Assumptions</u></h3>
+
+This algorithm takes the following assumptions about the data 
+
+1) The data consists of discrete values , not categorical.
+2) The values are of datatype float (Currently)
+3) Decision confilt will be solved by greedy approach. 
+
 
 
 
