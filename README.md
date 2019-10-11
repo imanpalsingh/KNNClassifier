@@ -16,6 +16,7 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 | : | : | :|  .. .. .. | : |
 | Observation M0 | Observation M1 | Observation M2|  .. .. .. | Observation MN |
 
+<br><br>
 The equivalent C++ representation would be done by initialising vector of vectors like :-
 
 ```c++
@@ -28,6 +29,8 @@ std::vector<vector<float> > X = { {Observation 00,Observation 01,Observation 02,
 ```
 <br>
 For example a Feature matrix with four features may look like
+
+
 ```c++
 std::vector<vector<float> > X = { {2,3,4,5}, 
                                   {1,2,3,4}, 
@@ -36,6 +39,8 @@ std::vector<vector<float> > X = { {2,3,4,5},
                                   {5,1,3,4}};
 
 ```
+
+
 <br><br>
 2. The vector of prediction is a vector of float (currently) and the input format is given below
 <br>
