@@ -83,7 +83,13 @@ This algorithm takes the following assumptions about the data
 
 1) The data consists of discrete values , not categorical.
 2) The values are of datatype float (Currently)
-3) Decision confilt will be solved by greedy approach. 
+3) Decision conflict are to be solved by greedy approach. 
+
+
+<h3><u>Implementation</u></h3>
+
+<h5> Function : apply() </h5>
+
 
 
 
