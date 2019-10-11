@@ -7,9 +7,24 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 
 1. The Feature Matrix is a vector of vectors of float (currently) and the input format is given below
 
-Feature1      Feature2      Feature3      .. ... .. ..        FeatureN
 
-Observation1  Observation2  Observation3  .. ... .. ..        ObservationN
+<table>
+  <td>
+    <tr>Feature1</tr>     
+    <tr>Feature2</tr>     
+    <tr>Feature3</tr>
+    <tr>.. ... .. ..</tr>    
+    <tr>FeatureN </tr>
+  </td>
+  
+<td>
+  <tr>Observation1</tr>
+  <tr>Observation2</tr>
+  <tr>Observation3 </tr>
+  <tr>.. ... .. .. </tr>
+  <tr>ObservationN</tr>
+ </td>
+ </table>
 
 :
 :
