@@ -148,6 +148,7 @@ int main()
   //The val_pred vector can also be accessed with model.val_pred
   
   ```
-  
-<b><i>This project is still under development<b><i>
+ 
+<br><br>
+>This project is still under development
 
