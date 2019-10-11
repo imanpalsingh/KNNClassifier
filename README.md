@@ -19,7 +19,7 @@ The code is a from scratch implementation of KNN in C++ programing language.The 
 The equivalent C++ representation would be done by initialising vector of vectors like :-
 
 ```c++
-std::vector<vector<float> > X;
+std::vector<vector<float> > X = { {2,3,4,5}, {1,2,3,4}, {4,2,3,1}, {4,2,1,4}, {5,1,3,4}};
 
 ```
 
