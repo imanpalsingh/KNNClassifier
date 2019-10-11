@@ -88,6 +88,9 @@ This algorithm takes the following assumptions about the data :-
 
 <h3><u>Implementation</u></h3>
 
+<h5>Object Creation</h5>
+Knn class is called to make an object. The default values are neighbors=1,distance_metric="euclidean", mode="none". Selecting differnet parameters donot effect the program execution (currently)
+
 <h5> Function : apply() </h5>
 Input : Feature Matrix and Vector of prediction<br>
 Output : None<br>
