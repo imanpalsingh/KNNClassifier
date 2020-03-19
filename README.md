@@ -149,5 +149,5 @@ int main()
   ```
  
 <br><br>
->This project is still under development
+>This project will be merged with CML repository. No futher developments here
 
